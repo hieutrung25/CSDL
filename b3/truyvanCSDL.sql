@@ -8,6 +8,7 @@ where month(startdate) = 12;
 select * from subject
 where credit between 3 and 5;
 
+set sql_safe_updates =0;
 update student
 set classID = 2 where studentname ='Hung';
 
